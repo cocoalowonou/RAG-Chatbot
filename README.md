@@ -52,7 +52,7 @@ relevant context from previous conversations to provide more accurate answers.
 To deal with context overflows, we implemented three approaches:
 
 * `Create And Refine the Context`: synthesize a responses sequentially through all retrieved contents.
-    * ![create-and-refine-the-context.png](images/create-and-refine-the-context.png)
+    * ![create-and-refine-the-context.png](images/Context_RAG.png)
 * `Hierarchical Summarization of Context`: generate an answer for each relevant section independently, and then
   hierarchically combine the answers.
     * ![hierarchical-summarization.png](images/hierarchical-summarization.png)
