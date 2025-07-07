@@ -30,7 +30,7 @@ The RAG Chatbot works by taking a collection of Markdown files as input and, whe
 corresponding answer
 based on the context provided by those files.
 
-![rag-chatbot-architecture-1.png](images/rag-chatbot-architecture-1.png)
+![rag-chatbot-architecture-1.png](images/Rag.png)
 
 > [!NOTE]
 > We decided to grab and refactor the `RecursiveCharacterTextSplitter` class from `LangChain` to effectively chunk
